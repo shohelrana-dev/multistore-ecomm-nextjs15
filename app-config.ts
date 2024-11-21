@@ -1,0 +1,5 @@
+export const SITE_NAME = process.env['SITE_NAME'] || 'Multi-store Ecommerce'
+export const SITE_URL = process.env['SITE_URL'] || 'http://localhost:3000'
+export const AFTER_LOGIN_REDIRECT_URL = SITE_URL + '/'
+export const LOGIN_URL = SITE_URL + '/login'
+export const CURRENCY = '$'
